@@ -21,7 +21,7 @@ class MainServlet extends ScalatraServlet with ScalateSupport {
 
   val system = ActorSystem("ActorSystem")
   val sliderActor = system.actorOf(Props[SliderActor], name = "sliderActor")
-  implicit val timeout = Timeout(2.second)
+  implicit val timeout = Timeout(8.second)
   implicit val ec = system.dispatcher
   var sv : Int = 0
 
