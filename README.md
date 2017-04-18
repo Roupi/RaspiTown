@@ -1,6 +1,6 @@
 # RaspiTown WebApp
 
-# Mode deployement(war)
+# Mode deployement(.war)
 
 0.Autoriser l'app à accéder au port usb du phidget
         lsusb pour voir sur quel port est connecté le phidget (ici 001)
