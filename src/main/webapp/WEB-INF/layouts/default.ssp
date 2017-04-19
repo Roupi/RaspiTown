@@ -5,6 +5,9 @@
 
         <%@ var body: String %>
         <%@ val sensor_value : Int %>
+        <%@ val c0 : String %>
+        <%@ val c1 : String %>
+        <%@ val c2 : String %>
         <%@ var title: String = "INFOS TRAFIC" %>
         <% var flash = context.asInstanceOf[ScalatraRenderContext].flash %>
 
@@ -15,7 +18,7 @@
 
             <!-- Optional theme -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-            <meta http-equiv="refresh" content="3"/>
+            <meta http-equiv="refresh" content="2"/>
             </head>
 
             <body>
@@ -44,12 +47,166 @@
 
                 <div class="container theme-showcase" role="main">
 
-                <div style="margin-top: 256px;">
-                                        ${ unescape(body) }
+                <div style="margin-top: 150px;">
+                <h2>Bienvenue sur la plateforme info trafic de RaspiTown</h2>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="400"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="maquette.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective4701" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="618.96875"
+       height="314.9375"
+       patternTransform="translate(65.78125,280.71875)"
+       id="pattern3975">
+      <rect
+         y="2.412262"
+         x="2.4040451"
+         height="310.11682"
+         width="614.17273"
+         id="rect2985"
+         style="fill:#00a11c;fill-opacity:1;fill-rule:evenodd;stroke:#3c3c44;stroke-width:4.80000019;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </pattern>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="418.34846"
+     inkscape:cy="325.99526"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer5"
+     showgrid="false"
+     inkscape:window-width="3200"
+     inkscape:window-height="1758"
+     inkscape:window-x="0"
+     inkscape:window-y="42"
+     inkscape:window-maximized="1"
+     width="1500.36px" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-3809.4488)">
+    <rect
+       style="fill:#8dd35f;fill-opacity:1;stroke:#3c3c44;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4848"
+       width="800.04083"
+       height="400.27292"
+       x="-3.2569167e-07"
+       y="-0.5254845"
+       ry="1.5152289"
+       transform="translate(0,3809.4488)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Route_Horizontale">
+    <rect
+       style="fill:#8dd35f;fill-opacity:1;stroke:#3c3c44;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4851"
+       width="38.890873"
+       height="3.5355339"
+       x="98.994949"
+       y="239.89082"
+       ry="1.5152289" />
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       id="rect4855"
+       width="799.87378"
+       height="80"
+       x="0.15499227"
+       y="291.43835"
+       ry="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Route_Verticale_Gauche">
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       id="rect4877"
+       width="80"
+       height="291.7962"
+       x="151.14285"
+       y="-0.35714349"
+       ry="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Etang">
+    <path
+       sodipodi:type="arc"
+       style="fill:#2a85d6;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path4907"
+       sodipodi:cx="391.43411"
+       sodipodi:cy="90.893318"
+       sodipodi:rx="144.45181"
+       sodipodi:ry="121.72338"
+       d="M 535.86633,92.898314 A 144.45181,121.72338 0 0 1 247.01625,93.532361 L 391.43411,90.893318 z"
+       transform="matrix(1.0646853,0,0,0.96680498,-23.047196,-90.926981)"
+       sodipodi:start="0.016472488"
+       sodipodi:end="3.1199103" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Route_Verticale_Droite">
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       id="rect4877-0"
+       width="80"
+       height="291.7962"
+       x="554.14282"
+       y="-0.32666016"
+       ry="0" />
+  </g>
+</svg>
                 </div>
 
                 <div style="margin-top: 256px;">
-                    Sensor_1 value : ${sensor_value}
+                    Sensor_1 value : ${sensor_value} 
+                    c0 : ${c0} 
+                    c1 : ${c1} 
+                    c2 : ${c2} 
+
+
                 </div>
 
                 </div>

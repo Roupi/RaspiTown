@@ -5,6 +5,8 @@ import com.phidgets.InterfaceKitPhidget
 
  class SliderActor extends Actor{
 
+
+
   override def receive: Receive = {
     case "GET_VALUE" => {
       System.out.println("GET_VALUE msg received")
@@ -19,8 +21,6 @@ import com.phidgets.InterfaceKitPhidget
     }
     case _ => System.out.println("Unexpected msg received in SliderActor")
   }
-
-
 
 
 }
