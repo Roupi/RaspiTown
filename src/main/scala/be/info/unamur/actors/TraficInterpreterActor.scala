@@ -31,6 +31,12 @@ import scala.util.Random
     case "TRAFIC_INFO" => {
       System.out.println("TRAFIC INFO Requested")
         histo.dequeue
+        histo.dequeue
+        histo.dequeue
+        histo.dequeue
+        histo += LocalTime.parse("10:50:30").minusMinutes(rand.nextInt(50))
+        histo += LocalTime.parse("10:50:30").minusMinutes(rand.nextInt(50))
+        histo += LocalTime.parse("10:50:30").minusMinutes(rand.nextInt(50))
         histo += LocalTime.parse("10:50:30").minusMinutes(rand.nextInt(50))
         val t_ref = LocalTime.parse("10:23:30").minusMinutes(10)
         var nb_cars : Int = 0
